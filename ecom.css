@@ -1,0 +1,89 @@
+container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    margin-right: 10px;
+  }.
+.city {
+display: grid;
+align-items: center; 
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 5px;
+  }
+img {
+max-width: 100%;
+max-height:100%;
+}
+h1{
+font-size: 40px;
+font-style: arial;
+}
+p{
+font-size: 20px;
+font-style: italic;
+}
+section{
+background-color:rgb(206, 20, 73);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+header{
+font-size: 50px;
+font-style: italic ;
+color: rgb(8, 4, 112);
+text-align: center;
+}
+.row {
+display: flex;
+}
+
+.column {
+flex: 33.33%;
+padding: 5px;
+}
+h2{
+font-size: 30px;
+font-style: italic;
+color: rgb(11, 11, 229);
+}
+h3{
+font-size: 30px;
+font-style:italic;
+color: rgb(151, 16, 223);
+}
+p.color{
+font-size: 20px;
+color:rgb(235, 198, 14);
+font-style:italic;
+}  
+.btn {
+border: none;
+background-color: inherit;
+padding: 14px 28px;
+font-size: 20px;
+cursor: pointer;
+display: inline-block;
+}
+.btn:hover {background: #eee;}
+
+.home {color: rgb(236, 18, 174);
+font-style: italic;
+}
+.product {color: rgb(244, 15, 195);
+font-style: italic;
+}
+.contact {color: rgb(241, 10, 222);
+font-style: italic;
+}
+.about {color: rgb(237, 13, 185);
+font-style: italic;
+}
+.pages {color: rgb(241, 15, 223);
+font-style: italic;
+}
+
+.cart {color: white;
+font-style: italic;
+background-color:rgb(255, 98, 19);
+}
